@@ -1,0 +1,78 @@
+/* schedules.css */
+
+.page-title {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.page-description {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}  
+
+.btn-add-schedule {
+    background-color: #28a745;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-add-schedule:hover {
+    background-color: #218838;
+}
+
+.table-schedules {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table-schedules th,
+.table-schedules td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: left;
+}
+
+.table-schedules th {
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.table-schedules tbody tr:nth-child(even) {
+    background-color: #e9f5e9;
+}
+
+.button-group-schedules button {
+    margin-left: 5px;
+    transition: transform 0.2s ease;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+
+.button-group-schedules button:hover {
+    transform: scale(1.1);
+}
+
+.btn-edit-schedule {
+    background-color: #17a2b8;
+}
+
+.btn-edit-schedule:hover {
+    background-color: #138496;
+}
+
+.btn-delete-schedule {
+    background-color: #dc3545;
+}
+
+.btn-delete-schedule:hover {
+    background-color: #c82333;
+}

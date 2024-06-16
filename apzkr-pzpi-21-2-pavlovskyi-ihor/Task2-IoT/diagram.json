@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "author": "Uri Shaked",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 4.84, "attrs": {} },
+    { "type": "wokwi-slide-switch", "id": "sw1", "top": -82, "left": 70.3, "attrs": {} },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht1",
+      "top": -66.9,
+      "left": -216.6,
+      "attrs": { "temperature": "54.8", "humidity": "48.5" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "sw1:1", "esp:3V3", "red", [ "h-86.4", "v76.8" ] ],
+    [ "esp:GND.2", "sw1:3", "black", [ "h43.24", "v-76.8" ] ],
+    [ "sw1:2", "esp:17", "yellow", [ "v28.8", "h86.5", "v144" ] ],
+    [ "dht1:SDA", "esp:4", "green", [ "v211.2", "h345.7", "v-115.2" ] ],
+    [ "dht1:VCC", "esp:5V", "red", [ "v0" ] ],
+    [ "dht1:GND", "esp:GND.1", "black", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}

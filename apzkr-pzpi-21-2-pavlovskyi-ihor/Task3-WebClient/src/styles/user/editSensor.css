@@ -1,0 +1,64 @@
+/* editSensor.css */
+
+.edit-sensor-page .page-title {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.edit-sensor-page .form-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.edit-sensor-page .form-label {
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.edit-sensor-page .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 1rem;
+    color: #495057;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.edit-sensor-page .form-check-label {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.edit-sensor-page .btn-submit {
+    background-color: #28a745;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+.edit-sensor-page .btn-submit:hover {
+    background-color: #218838;
+}
+
+.edit-sensor-page .spinner-border {
+    width: 1rem;
+    height: 1rem;
+    border-width: 0.2em;
+    vertical-align: text-bottom;
+}
+
+.edit-sensor-page .alert {
+    margin-top: 20px;
+    text-align: center;
+}

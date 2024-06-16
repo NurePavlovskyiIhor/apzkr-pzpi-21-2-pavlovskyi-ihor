@@ -1,0 +1,74 @@
+/* greenhouses.css */
+
+.page-title {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.btn-add {
+    background-color: #28a745;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-add:hover {
+    background-color: #218838;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #e9f5e9;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #d4edda;
+}
+
+.button-group button {
+    margin-left: 5px;
+    transition: transform 0.2s ease;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+
+.button-group button:hover {
+    transform: scale(1.1);
+}
+
+.btn-edit {
+    background-color: #17a2b8;
+}
+
+.btn-edit:hover {
+    background-color: #138496;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+.btn-view {
+    background-color: #ffc107;
+    color: #343a40;
+}
+
+.btn-view:hover {
+    background-color: #e0a800;
+}

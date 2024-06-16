@@ -1,0 +1,19 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mobile_greenhouses.Views.EditUserPage"
+             Title="Edit User">
+    <VerticalStackLayout Margin="20">
+        <Label x:Name="PageTitleLabel" FontSize="24" HorizontalOptions="Center" />
+
+        <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto" ColumnDefinitions="*,*" Margin="0,20,0,0">
+            <Label x:Name="UserNameLabelTitle" Grid.Row="0" Grid.Column="0" />
+            <Entry x:Name="UserNameEntry" Grid.Row="0" Grid.Column="1" />
+
+            <Label x:Name="EmailLabelTitle" Grid.Row="4" Grid.Column="0" />
+            <Entry x:Name="EmailEntry" Grid.Row="4" Grid.Column="1" />
+        </Grid>
+
+        <Button x:Name="SaveChangesButton" Clicked="SaveChangesButton_Clicked" Margin="0,20,0,0" />
+        <Button x:Name="GoBackButton" Clicked="GoBackButton_Clicked" Margin="0,10,0,0"  />
+    </VerticalStackLayout>
+</ContentPage>

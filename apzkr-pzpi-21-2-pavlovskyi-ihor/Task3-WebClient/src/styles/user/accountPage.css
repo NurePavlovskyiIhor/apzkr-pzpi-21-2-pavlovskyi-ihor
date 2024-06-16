@@ -1,0 +1,69 @@
+.user-account-main {
+    padding: 20px;
+}
+
+.user-account-title {
+    font-size: 2rem;
+    color: #006400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.user-account-info {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-account-input-field {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 1rem;
+    color: #495057;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.user-account-error {
+    color: red;
+    font-size: 0.9rem;
+}
+
+.user-account-btn-group {
+    display: flex;
+    gap: 10px;
+}
+
+.user-account-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.user-account-btn-primary {
+    background-color: #32CD32;
+}
+
+.user-account-btn-primary:hover {
+    background-color: #228B22;
+}
+
+.user-account-btn-secondary {
+    background-color: #FFD700;
+}
+
+.user-account-btn-secondary:hover {
+    background-color: #FFA500;
+}
+
+.user-account-btn-danger {
+    background-color: #FF6347;
+}
+
+.user-account-btn-danger:hover {
+    background-color: #FF4500; 
+}

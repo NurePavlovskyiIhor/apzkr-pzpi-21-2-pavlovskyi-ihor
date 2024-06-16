@@ -1,0 +1,42 @@
+/* notifications.css */
+
+.page-title {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.table-notifications {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table-notifications th,
+.table-notifications td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: left;
+}
+
+.table-notifications th {
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.table-notifications tbody tr:nth-child(even) {
+    background-color: #e9f5e9;
+}
+
+.btn-delete-notification {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-delete-notification:hover {
+    background-color: #c82333;
+}

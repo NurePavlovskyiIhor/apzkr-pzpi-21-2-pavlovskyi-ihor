@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mobile_greenhouses.Views.RegistrationPage"
+             Title="RegistrationPage">
+    <VerticalStackLayout Spacing="20" Padding="20">
+        <Entry x:Name="UserNameEntry" Text="{Binding UserName}" />
+        <Entry x:Name="EmailEntry" Text="{Binding Email}" />
+        <Entry x:Name="PasswordEntry" IsPassword="True" Text="{Binding Password}" />
+        <Button x:Name="RegisterButton" Command="{Binding RegisterCommand}" />
+    </VerticalStackLayout>
+</ContentPage>

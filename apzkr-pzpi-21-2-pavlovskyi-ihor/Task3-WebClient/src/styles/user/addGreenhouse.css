@@ -1,0 +1,54 @@
+/* addGreenhouse.css */
+
+.add-greenhouse-page .page-title {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.add-greenhouse-page .form-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.add-greenhouse-page .form-label {
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.add-greenhouse-page .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 1rem;
+    color: #495057;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.add-greenhouse-page .btn-submit {
+    background-color: #28a745;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+.add-greenhouse-page .btn-submit:hover {
+    background-color: #218838;
+}
+
+.add-greenhouse-page .spinner-border {
+    width: 1rem;
+    height: 1rem;
+    border-width: 0.2em;
+    vertical-align: text-bottom;
+}

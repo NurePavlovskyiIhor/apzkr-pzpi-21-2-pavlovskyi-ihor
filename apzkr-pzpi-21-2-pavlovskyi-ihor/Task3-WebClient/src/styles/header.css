@@ -1,0 +1,73 @@
+.g-page-title {
+    font-size: 2rem;
+    color: #2e8b57;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.g-btn-add {
+    background-color: #32cd32;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 1rem;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.g-btn-add:hover {
+    background-color: #2e8b57;
+}
+
+.g-list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #f0fff0;
+    border: 1px solid #98fb98;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.g-list-group-item:hover {
+    background-color: #d4edda;
+}
+
+.g-button-group button {
+    margin-left: 5px;
+    transition: transform 0.2s ease;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+
+.g-button-group button:hover {
+    transform: scale(1.1);
+}
+
+.g-btn-edit {
+    background-color: #20b2aa;
+}
+
+.g-btn-edit:hover {
+    background-color: #3cb371;
+}
+
+.g-btn-delete {
+    background-color: #dc143c;
+}
+
+.g-btn-delete:hover {
+    background-color: #c82333;
+}
+
+.g-btn-view {
+    background-color: #ffd700;
+    color: #2e8b57;
+}
+
+.g-btn-view:hover {
+    background-color: #ffdb58;
+}

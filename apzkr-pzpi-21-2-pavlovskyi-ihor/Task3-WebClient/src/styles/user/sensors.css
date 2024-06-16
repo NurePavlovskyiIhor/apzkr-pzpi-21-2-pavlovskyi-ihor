@@ -1,0 +1,80 @@
+/* sensors.css */
+
+.page-title {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.btn-add-sensor {
+    background-color: #28a745;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-add-sensor:hover {
+    background-color: #218838;
+}
+
+.table-sensors {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table-sensors th,
+.table-sensors td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: left;
+}
+
+.table-sensors th {
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.table-sensors tbody tr:nth-child(even) {
+    background-color: #e9f5e9;
+}
+
+.button-group-sensors button {
+    margin-left: 5px;
+    transition: transform 0.2s ease;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+
+.button-group-sensors button:hover {
+    transform: scale(1.1);
+}
+
+.btn-edit-sensor {
+    background-color: #17a2b8;
+}
+
+.btn-edit-sensor:hover {
+    background-color: #138496;
+}
+
+.btn-delete-sensor {
+    background-color: #dc3545;
+}
+
+.btn-delete-sensor:hover {
+    background-color: #c82333;
+}
+
+.btn-view-schedules {
+    background-color: #ffc107;
+    color: #343a40;
+}
+
+.btn-view-schedules:hover {
+    background-color: #e0a800;
+}
